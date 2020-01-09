@@ -1,0 +1,13 @@
+body {
+  background-color: midnightblue;
+}
+
+svg, select {
+  margin: 0 auto;
+  display: block;
+}
+
+path {
+  stroke: #ccc;
+  stroke-width: 0.25px;
+}
