@@ -1,5 +1,5 @@
 # D3.JS Global Map Visualisation
-This is a global map visualisation of various statistical data, built with `D3.JS` and `SVGs`
+This is a global map visualisation of various statistical data, built with `D3.JS`, `TopoJSON` and `SVGs`
 
 The `dropdown select` can be used to specify the `attribute/criteria` to display statistical data for
 
@@ -18,7 +18,7 @@ Below is the color scale for the various criteria one can select:
 
   `black -> orange` ==> `low -> high`
 
-The data used has been sourced and compiled from [UN data](https://data.un.org/)
+The statistical data used has been sourced and compiled from [UN data](https://data.un.org/), while the map data has been sourced from [World Atlas](unpkg.com/world-atlas@1.1.4/world/50m.json)
 
 The app, and online editor, can also be found here on [CodeSandbox](https://codesandbox.io/s/d3-global-map-visualisation-llihh)
 
